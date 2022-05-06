@@ -1,0 +1,29 @@
+{
+  "name": "infrastructure",
+  "version": "0.0.0",
+  "description": "CDK version of all the infrastructure",
+  "author": "Taichen Rose <rosjorji@amazon.com>",
+  "homepage": "https://github.com/willsower/restaraunt-app-aws#readme",
+  "license": "ISC",
+  "main": "lib/infrastructure.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://amazon-149122183214.d.codeartifact.us-west-2.amazonaws.com/npm/shared/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willsower/restaraunt-app-aws.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/willsower/restaraunt-app-aws/issues"
+  }
+}
